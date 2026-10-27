@@ -1,0 +1,48 @@
+# Local environments, caches and build products
+venv/
+.venv*/
+env/
+.python/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.jupyter/
+catboost_info/
+# Local configuration and credentials
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*service-account*.json
+*.local
+*.log
+*.tmp
+*.bak
+*.swp
+# Future runs and prediction exports may contain labelled source records.
+/runs/
+/outputs/*
+!/outputs/.gitkeep
+# Keep documentation and directory markers; never commit source/processed data.
+/data/**
+!/data/**/
+!/data/**/README.md
+!/data/**/.gitkeep
+
+# Both serialized models embed the observed sales time series.
+/models/weekly_prophet.json
+/models/monthly_ets.joblib

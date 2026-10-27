@@ -1,0 +1,25 @@
+{
+  "weekly": {
+    "family": "Prophet raw multiplicative",
+    "kind": "prophet",
+    "tx": "raw",
+    "mode": "multiplicative",
+    "cps": 0.2,
+    "sps": 2.0,
+    "ncp": 25,
+    "cpr": 0.8,
+    "K": 6,
+    "extra": 0,
+    "id": "0504"
+  },
+  "monthly": {
+    "id": "M003",
+    "family": "Monthly expanded",
+    "kind": "ets",
+    "tx": "raw",
+    "trend": "add",
+    "seasonal": "mul",
+    "damped": false,
+    "period": 12
+  }
+}

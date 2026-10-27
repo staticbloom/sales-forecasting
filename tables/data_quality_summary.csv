@@ -1,0 +1,16 @@
+Check,Value,Meaning
+Transaction lines,60097,All lines retained; joins preserve values and order
+Historical Sales,89584537.85,Source revenue units; currency unspecified
+Start date,2021-07-01,Observed source coverage
+End date,2025-05-31,Observed source coverage
+Exact duplicate lines,0,No automatic deletion
+Amount mismatches,0,Sales versus quantity × price; no correction
+Missing product colours,56,Descriptive lookup field retained
+Complete weeks,204,"Sunday–Saturday, W-SAT labels"
+Complete months,47,Complete calendar months only
+Partial-week Sales,83838.27,Opening July 1–3 remains in source reconciliation
+Zero-record days,76,Not confirmed zero-demand days
+Order numbers spanning dates,100,Neither business-key interpretation is assumed
+2022 lines,2246,One line per order; source recording-regime concern
+2022 appended block,True,Revenue retained as recorded
+Source SHA256,b99ea446d7e6ec36f9efb0e0a63e13ae5a3853c230f9054839f75cf7e3888c0e,Raw workbook never modified
